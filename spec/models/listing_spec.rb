@@ -75,5 +75,6 @@ describe Listing do
     it 'knows about all of its guests' do
       expect(listing.guests).to include(logan)
     end
+  
   end
 end
